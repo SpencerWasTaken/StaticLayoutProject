@@ -2,11 +2,6 @@
     margin: 10px;  
 }
 
-.h3 {
-    color: white;
-    text-align: start;
-}
-
 .NavBar {
     position: fixed;
     top: 0;
@@ -21,7 +16,7 @@
     height: 50px;
     background-color: #ff5500;
     left: 70px;
-    margin-left: 60px;
+    margin-left: 50px;
 }
 #cloud-icon {
     width: 80%;
@@ -33,7 +28,7 @@
     width: 7.5em;
     height: 100%;
     text-align: center;
-    background-color: darkred;
+    background-color: #333333;
 }
 
 .nav-link a {
@@ -43,5 +38,59 @@
     text-decoration: none;
     margin: 0 auto;
     text-align: center;
-    padding-left: 10%;
+    line-height: 45px;
+    padding-bottom: 100%;
+}
+
+.Search {
+    width: 35%;
+    height: 2em;
+    margin: 0 auto;
+    position: fixed;
+}
+
+.Login {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    border: 5px;
+    padding: 10px;
+}
+
+.btn {
+    width: 500px;
+    height: 40px;
+    position: relative;
+    border: 0px;
+    border-style: ridge;
+}
+
+#Blue {
+    background-color: #3578e5;
+    color: white;
+}
+
+#White {
+    background-color: white;
+    color: black;
+}
+
+#Black {
+    background-color: black;
+    color: white;
+}
+
+#Orange {
+    background-color: #ff5500;
+    color: white;
+}
+
+.text {
+    background-color: white;
+    color: black;
+    margin: 0px;
+    width: 494px;
+    height: 34px;
+    text-align: center;
 }
