@@ -1,0 +1,47 @@
+.Wrapper {
+    margin: 10px;  
+}
+
+.h3 {
+    color: white;
+    text-align: start;
+}
+
+.NavBar {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 50px;
+    background-color: #333333;
+}
+
+#Brand {
+    width: 90px;
+    height: 50px;
+    background-color: #ff5500;
+    left: 70px;
+    margin-left: 60px;
+}
+#cloud-icon {
+    width: 80%;
+    margin: 10%;
+}
+
+.nav-link {
+    float: left;
+    width: 7.5em;
+    height: 100%;
+    text-align: center;
+    background-color: darkred;
+}
+
+.nav-link a {
+    color: #cccccc;
+    font-size: 14pt;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-decoration: none;
+    margin: 0 auto;
+    text-align: center;
+    padding-left: 10%;
+}
